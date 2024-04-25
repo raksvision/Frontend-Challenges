@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+       background-color: rgb(179, 233, 233);
+
+}
+
+.btn-container{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   width: 40%;
+}
+
+.M-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   background-color: rgb(36, 36, 36);
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:1.5rem;
+   font-weight: 500;
+   padding: .5rem 2rem;
+}
+
+
+.A-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   background: linear-gradient(360deg,#f8b44e,#fddaa5);
+   border-radius: 5px;
+   border: 3px solid #e7a542e0;
+   font-family: "poppins";
+   font-size: 1.2rem;
+   padding: .5rem 2rem;
+   font-weight: 700;
+
+}
+
+.A-btn>img{
+   width: 2.5rem;
+   height: auto;
+}
+
+
+
+.S-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+   padding: .5rem 2rem;
+   font-weight: 700;
+   background-color: white;
+   border-radius: 5px;
+
+}
+
+.S-btn>img{
+   width: 3rem;
+   height: auto;
+}
+
+
+.F-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+   padding: .5rem 2rem;
+   font-weight: 700;
+   background-color:#039BE5;
+   border-radius: 5px;
+   color: white;
+}
+
+.F-btn>img{
+   background-color: white;
+   border-radius: 90%;
+   
+   height: auto;
+}
+
+
+
+
+h1{
+font-size: 2rem;
+/*  */
+font-weight: 500;
+font-family:  'Larsseit' ;
+}
