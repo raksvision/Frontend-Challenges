@@ -19,7 +19,7 @@ body{
     background-color: white;
     height: auto;
     width: auto;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
 
 
@@ -29,21 +29,28 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-size: 1.7rem;
      
 }
 
-.heading>span{
+h3:hover{
+    filter: drop-shadow(0 0 .4rem rgb(20, 47, 220));
+}
+
+.heading>span,h3{
     cursor: pointer;
 }
 
 th{
     text-align: center;
     font-weight: 600;
-    padding: 5px;
+    padding: 7px;
+    font-size: 1.5rem;
 }
 
 td{
-    padding: 5px;
+    padding: 7px;
+    font-size: 1.4rem;
 }
 
 
@@ -55,8 +62,9 @@ td{
 
 p{
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding-top: 5px;
+    cursor: pointer;
 }
 
 .fade{
@@ -64,7 +72,13 @@ p{
 }
 
 .present{
+    cursor: pointer;
     background-color: rgb(2, 140, 190);
     color: #fff;
     border-radius: .6rem;
+    transition: all .2s ease-in-out;
+}
+
+.present:hover{
+    transform: scale(1.1);
 }
