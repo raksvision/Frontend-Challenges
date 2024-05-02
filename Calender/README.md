@@ -1,3 +1,3 @@
 ## Output
 
-![Calender Viewer](https://github.com/raksvision/Frontend-Challenges/assets/120659332/db9bdacb-4caa-46fd-9121-3dec40e5172f)
+![Screenshot 2024-05-02 163725](https://github.com/raksvision/Frontend-Challenges/assets/120659332/5c152d8a-0bdf-4477-b2cd-85f97ae8820b)
