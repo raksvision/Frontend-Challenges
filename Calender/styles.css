@@ -49,7 +49,8 @@ td{
 
 .line{
     border-top: 1px solid rgb(159, 158, 158);
-    margin: 5px;
+    margin: 5px 0;
+    padding: none;
 }
 
 p{
